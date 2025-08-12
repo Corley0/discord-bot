@@ -1,0 +1,101 @@
+{
+    "messages": {
+        "moderation": {
+            "purge": {
+                "generic": {
+                    "is_embed": true,
+                    "success": "{count} messages deleted",
+                    "failure": "Unable to delete {count} messages"
+                },
+                "user": {
+                    "is_embed": true,
+                    "success": "{count} messages from {user} deleted",
+                    "failure": "Unable to delete {count} messages"
+                }
+            },
+
+            "warning": {
+                "dm": {
+                    "is_embed": true,
+                    "title": "You have been warned",
+                    "description": "Server: {guild}\nReason: {reason}\nIssued By: {mod}"
+                },
+                "server": {
+                    "is_embed": true,
+                    "title": "Warned {user}",
+                    "description": "Reason: {reason}\nIssued By: {mod}"
+                }
+            },
+
+            "mute": {
+                "muted": {
+                    "dm": {
+                        "is_embed": true,
+                        "title": "You have been muted",
+                        "description": "Server: {guild}\nDuration: {duration}\nReason: {reason}\nEnds: <t:{expires}:f> (<t:{expires}:R>)\nIssued By: {mod}"
+                    },
+                    "server": {
+                        "is_embed": true,
+                        "title": "Muted {user}",
+                        "description": "Reason: {reason}\nDuration: {duration}"
+                    }
+                },
+                "unmuted": {
+                    "dm": {
+                        "is_embed": true,
+                        "title": "You have been unmuted",
+                        "description": "Server: {guild}\nReason: {reason}\nIssued By: {mod}"
+                    },
+                    "server": {
+                        "is_embed": true,
+                        "title": "Unmuted {user}",
+                        "description": "Reason: {reason}"
+                    }
+                }
+            }
+        },
+        "giveaway": {
+            "entry": {
+                "title": "Prize: {prize}",
+                "description": "Sponsored by: {sponsor}\nHosted By: {host}\nEnds: <t:{expires}:d> at <t:{expires}:t> (<t:{expires}:R>)\nClaim Time: {claim_time}\n\nReact with {emoji} to join!"
+            },
+            "ended": {
+                "title": "Giveaway Ended",
+                "description": "Prize: {prize}\nClaim Time: {claim_time}\nSponsored by: <@{sponsor}>\nHost: <@{host}>\nWinner: {winner}\n\nPlease click below to claim your prize\n-# If not claimed before the end of the claim time, the giveaway will be rerolled!"
+            },
+            "ticket": {
+                "channel_name": "{winner}-claim",
+                "welcome_message": "Welcome {winner}! Please wait for a <@&{host}> to contact you. When recieving you prize, please try to record if possible as to verify that you have recieved your prize. The host will also do this so it is not required of you!\n\nRoblox Username:```{roblox_username}```\nPrivate Server Accessible:```{vip_accessible}```\nTimezone: ```{timezone}```",
+                "notification": "Keep an eye out on <#{channel}>"
+            },
+            "interactions":{
+                "modal": {
+                    "title": "Roblox Info",
+                    "questions": {
+                        "username": {
+                            "question": "Roblox Username",
+                            "placeholder": "OGPika2"
+                        },
+                        "timezone": {
+                            "question": "Timezone / Country",
+                            "placeholder": "GMT / England"
+                        },
+                        "links": {
+                            "question": "Can you join via VIP link?",
+                            "placeholder": "Yes / No"
+                        }
+                    }
+                },
+                "claim_button": {
+                    "text": "Claim",
+                    "emoji": "🎁",
+                    "false_claim": "You have not won this giveaway!"
+                }
+            }
+        }
+    },
+    "giveaway": {
+        "emoji": "🎉",
+        "channel": 1390391502210990241
+    }
+}
