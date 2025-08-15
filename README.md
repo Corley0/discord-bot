@@ -1,7 +1,10 @@
 # Giveaway Commands Syntax
 ?giveaway create [sponsor] [prize] [duration] [claim time]
+
 ?giveaway end [message id]
+
 ?giveaway reroll [message id]
+
 ?giveaway delete [message id]
 
 Duration and claim time in format '1d' meaning '1 Day'
