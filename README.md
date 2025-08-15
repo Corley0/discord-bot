@@ -8,6 +8,7 @@
 ?giveaway delete [message id]
 
 Duration and claim time in format '1d' meaning '1 Day'
+
 Message id is the original giveaway message
 
 Setup:
@@ -15,10 +16,13 @@ Do ?giveaway setup in the channel you wish for your giveaways to take place in. 
 
 # Moderation Commands Syntax
 ?purge any [amount]
+
 ?purge user [user] [amount]
 
 ?warn [user] [reason]
+
 ?warns [user]
 
 ?mute [user] [duration] [reason]
+
 ?unmute [user] [reason]
