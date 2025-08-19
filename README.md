@@ -20,8 +20,8 @@ Use `?help` to access syntax and the setup guild
 **Prize:** Single word string unless quoted
 
 **Example Giveaway Command:**
-A giveaway for $1000 hosted by <@556220380516450344> lasting 7 days with a claim time of 1 day
-`?giveaway create <@556220380516450344> $1000 7d 1d`
+A giveaway for $1000 hosted by @corley lasting 7 days with a claim time of 1 day
+`?giveaway create @corley $1000 7d 1d`
 
 # Moderation Commands Syntax
     
