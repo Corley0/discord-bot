@@ -11,6 +11,7 @@ Use `?help` to access syntax and the setup guild
 `?giveaway reroll [message id]`
 `?giveaway delete [message id]`
 
+**Sponsor:** Must be a user ping
 **Message ID:** Message ID of the original giveaway message.
 **Time Format:** Use a number followed by a letter.
 -   `m` = minutes (e.g. `10m` → 10 minutes)
