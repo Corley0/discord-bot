@@ -7,12 +7,18 @@ Use `?help` to access syntax and the setup guild
 
 # Giveaway Command Syntax
 `?giveaway create [sponsor] [prize] [duration] [claim time]`
+
 `?giveaway end [message id]`
+
 `?giveaway reroll [message id]`
+
 `?giveaway delete [message id]`
 
+
 **Sponsor:** Must be a user ping
+
 **Message ID:** Message ID of the original giveaway message.
+
 **Time Format:** Use a number followed by a letter.
 -   `m` = minutes (e.g. `10m` → 10 minutes)
 -   `h` = hours (e.g. `2h` → 2 hours)
@@ -21,15 +27,21 @@ Use `?help` to access syntax and the setup guild
 **Prize:** Single word string unless quoted
 
 **Example Giveaway Command:**
+
 A giveaway for $1000 hosted by <@556220380516450344> lasting 7 days with a claim time of 1 day
+
 `?giveaway create <@556220380516450344> $1000 7d 1d`
 
 # Moderation Commands Syntax
     
 `?purge any [amount] ?purge user [user] [amount]`
+
 `?warn [user] [reason]`
+
 `?warns [user]`
+
 `?mute [user] [duration] [reason]`
+
 `?unmute [user] [reason]`
 
 **Time Format:** Use a number followed by a letter.
